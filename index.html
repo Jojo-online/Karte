@@ -1,2 +1,67 @@
-<h1>Hi!</h1>
-gzztztz
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: 'Courier New', Courier, monospace;
+            margin: 0;
+            color: rgb(0, 237, 233);
+
+        }
+
+        .text {
+            padding-top: 300px;
+            padding-left: 50px;
+            font-size: 25px;
+
+        }
+
+        .h1 {
+            padding-top: 30px;
+            padding-left: 50px;
+            font-size: 50px;
+
+        }
+
+        .container {
+            background-image: url(wave.svg);
+            height: 100vh;
+            background-size: cover;
+        }
+
+        .h1 {
+            font-size: 80px;
+            color: #fff;
+            text-align: center;
+            -webkit-animation: glow 1s ease-in-out infinite alternate;
+            -moz-animation: glow 1s ease-in-out infinite alternate;
+            animation: glow 1s ease-in-out infinite alternate;
+        }
+
+        @-webkit-keyframes glow {
+            from {
+                text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+            }
+
+            to {
+                text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="h1">Alles Gute zum Geburtstag</div>
+        <br>
+        <br><br>
+        <p class="text">Ich wünsche dir alles Gute zu deinem 11. Geburtstag!<br>
+            Ich hoffe, das wird ein super Jahr, weil es ja 2025 ist!!!</p>
+    </div>
+</body>
+
+</html>
